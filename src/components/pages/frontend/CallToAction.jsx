@@ -4,10 +4,10 @@ import React from 'react'
 
 const CallToAction = () => {
   return (
-    <section className="bg-[url('./public/img/3.png')] bg-cover bg-no-repeat min-h-screen bg-center relative  ">
+    <section className="bg-[url('./public/img/3.png')] bg-cover bg-no-repeat min-h-screen bg-center relative ">
     <div className="container">
 
-      <div className="absolute  uppercase right-[300px] top-[200px]">
+      <div className="absolute  uppercase right-[300px] top-[200px] ">
         <h1 className="text-black mb-1 text-[clamp(50px,_6vw,_75px)] ">
           OPIUM JACKET Y-8
         </h1>

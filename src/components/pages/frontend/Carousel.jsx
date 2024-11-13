@@ -16,7 +16,7 @@ const sliders = [
 
 
 return (
-    <section className="overflow-x-hidden bg-gray-50 pt-10 pb-10">
+    <section className="overflow-x-hidden bg-gray-50 pt-10 pb-10 mt-10">
         <ul className="flex justify-center gap-5">
             <li className={`uppercase text-2xl font-bold ${currentTab === 0 ? "text-dark" : "opacity-50"}`}><button onClick={() => setCurrentTab(0)}>Popular</button></li>
             <li className={`uppercase text-2xl font-bold ${currentTab === 0 ? "text-dark" : "opacity-50"}`}>//</li>

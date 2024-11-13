@@ -137,6 +137,9 @@
 }
 
 @layer components{
+  .container{
+    @apply max-w-[1400px] mx-auto px-4 w-full;
+  }
   .table-action {
     @apply  flex gap-5 justify-end
   }
@@ -242,6 +245,10 @@
   stroke-linecap: round;
   animation: dash 1s ease-in-out infinite;
 }
+
+
+
+
 @keyframes dash {
   0% {
     stroke-dasharray: 1, 200;
@@ -256,8 +263,6 @@
   100% {
     stroke-dashoffset: -110px;
   }
-
-  
 }
 
 .counter {
