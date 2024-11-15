@@ -188,18 +188,18 @@
 }
 
 .nav-link.active{
-  @apply bg-accent bg-opacity-5 text-accent rounded-md opacity-100
+  @apply bg-dark bg-opacity-5 text-black rounded-md opacity-100
 }
 
 .tab-link{
   @apply pb-2
 }
 .tab-link.active{
-  @apply border-b  border-accent text-accent pb-2
+  @apply border-b  border-dark text-dark pb-2
 }
 
 .input-wrap{
-  @apply relative mb-1.5
+  @apply relative mb-1.5 
 }
 
 .input-wrap label{
@@ -208,7 +208,7 @@
 .input-wrap input,
 .input-wrap textarea,
 .input-wrap select {
-  @apply px-2 py-[4.5px] border-[2px] border-transparent rounded-md outline-none text-sm text-black focus:border-success w-full
+  @apply px-2 py-[4.5px] border-[2px] border-gray-400 rounded-md outline-none text-sm text-black focus:border-success w-full
 
 }
 .input-wrap textarea{

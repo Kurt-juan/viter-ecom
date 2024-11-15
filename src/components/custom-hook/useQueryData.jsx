@@ -2,6 +2,7 @@ import { useQuery } from "@tanstack/react-query";
 import { queryData } from "../helpers/queryData";
 
 
+
 // Queries hook
 const useQueryData = (endpoint, method, key = "", fd = {}, id = null) => {
   return useQuery({
